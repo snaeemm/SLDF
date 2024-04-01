@@ -15,7 +15,7 @@
     <a href="https://github.com/SLDF/stargazers">
         <img src="https://img.shields.io/github/stars/SLDF?style=flat-square">
     </a>
-    <a href="https://github.com/SLDF/blob/master/LICENSE">
+    <a href="https://github.com/snaeem/SLDF/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-97ca00?style=flat-square">
     </a>
     <a href="https://arxiv.org/abs/2311.15308">
