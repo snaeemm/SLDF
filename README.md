@@ -1,7 +1,7 @@
 # A Sign Language Deepfake Dataset
 
 <div align="center">
-    <img src="assets/Fig7.png" width="600" height="800">
+    <img src="assets/Fig7.png" width="300" height="400">
     <p></p>
 </div>
 
