@@ -9,13 +9,13 @@
     <a href="https://github.com/ControlNet/AV-Deepfake1M/issues">
         <img src="https://img.shields.io/github/issues/ControlNet/AV-Deepfake1M?style=flat-square">
     </a>
-    <a href="https://github.com/ControlNet/AV-Deepfake1M/network/members">
-        <img src="https://img.shields.io/github/forks/ControlNet/AV-Deepfake1M?style=flat-square">
+    <a href="https://github.com/SLDF/network/members">
+        <img src="https://img.shields.io/github/forks/SLDF?style=flat-square">
     </a>
-    <a href="https://github.com/ControlNet/AV-Deepfake1M/stargazers">
-        <img src="https://img.shields.io/github/stars/ControlNet/AV-Deepfake1M?style=flat-square">
+    <a href="https://github.com/SLDF/stargazers">
+        <img src="https://img.shields.io/github/stars/SLDF?style=flat-square">
     </a>
-    <a href="https://github.com/ControlNet/AV-Deepfake1M/blob/master/LICENSE">
+    <a href="https://github.com/SLDF/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-97ca00?style=flat-square">
     </a>
     <a href="https://arxiv.org/abs/2311.15308">
@@ -24,28 +24,38 @@
 </div>
 
 This is the official repository for the paper 
-[AV-Deepfake1M: A Large-Scale LLM-Driven Audio-Visual Deepfake Dataset](http://arxiv.org/abs/2311.15308).
+[Generation and Detection of Sign Language Deepfakes - A Linguistic and Visual Analysis](http://arxiv.org/abs/2311.15308).
 
 ## Abstract
-The detection and localization of highly realistic deepfake audio-visual content are challenging even for the most 
-advanced state-of-the-art methods. While most of the research efforts in this domain are focused on detecting 
-high-quality deepfake images and videos, only a few works address the problem of the localization of small segments of 
-audio-visual manipulations embedded in real videos. In this research, we emulate the process of such content generation 
-and propose the AV-Deepfake1M dataset. The dataset contains content-driven (i) video manipulations, 
-(ii) audio manipulations, and (iii) audio-visual manipulations for more than 2K subjects resulting in a total of more 
-than 1M videos. The paper provides a thorough description of the proposed data generation pipeline accompanied by a 
-rigorous analysis of the quality of the generated data. The comprehensive benchmark of the proposed dataset utilizing 
-state-of-the-art deepfake detection and localization methods indicates a significant drop in performance compared to 
-previous datasets. The proposed dataset will play a vital role in building the next-generation deepfake localization 
-methods.
+A question in the realm of deepfakes is slowly emerging pertaining to whether we can go beyond
+facial deepfakes and whether it would be beneficial to society. Therefore, this research presents a positive
+application of deepfake technology in upper body generation, while performing sign-language
+for the Deaf and Hard of Hearing (DHoH) community. The resulting videos are later vetted with
+a sign language expert. This is particularly helpful, given the intricate nature of sign language, a
+scarcity of sign language experts, and potential benefits for health and education. The objectives of
+this work encompass constructing a reliable deepfake dataset, evaluating its technical and visual credibility
+through computer vision and natural language processing models, and assessing the plausibility
+of the generated content. With over 1200 videos, featuring both previously seen and unseen individuals
+for the generation model, using the help of a sign language expert, we establish a deepfake dataset
+in sign language that can further be utilized to detect fake videos that may target certain people of
+determination. The expert annotations reveal that the generated fake videos are comparable to real
+sign language videos.Linguistic analysis, employing textual similarity scores and interpreter evaluations,
+reveals promising similarity between authentic and fraudulent sign language videos where in
+the interpretation of a fake is atleast 90% the same as the real video. Visual analysis demonstrates
+that visually convincing deepfake videos can be produced, even with entirely new subjects using our
+approach. Leveraging a pose/style transfer model for video generation, our method pays meticulous
+attention to detail, producing hands in a manner that allows interpretability, while closely matching
+the driving video. We further apply machine learning algorithms to establish a baseline performance
+on the dataset for deepfake detection.
 
 ## Dataset
 
 ### Download
 
-We're hosting [1M-Deepfakes Detection Challenge](https://deepfakes1m.github.io/) at ACM MM 2024.
-
 ### Baseline Benchmark
+
+Specificity | Sensitivity | Accuracy
+0.9091 0.8030 0.8384
 
 | Method                     | AP@0.5 | AP@0.75 | AP@0.9 | AP@0.95 | AR@50 | AR@20 | AR@10 | AR@5  |
 |----------------------------|--------|---------|--------|---------|-------|-------|-------|-------|
