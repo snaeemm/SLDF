@@ -1,7 +1,7 @@
-# AV-Deepfake1M
+# A Sign Language Deepfake Dataset
 
 <div align="center">
-    <img src="assets/teaser.png">
+    <img src="assets/Fig7.png">
     <p></p>
 </div>
 
