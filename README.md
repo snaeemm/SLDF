@@ -6,8 +6,8 @@
 </div>
 
 <div align="center">
-    <a href="https://github.com/ControlNet/AV-Deepfake1M/issues">
-        <img src="https://img.shields.io/github/issues/ControlNet/AV-Deepfake1M?style=flat-square">
+    <a href="https://github.com/snaeemm/SLDF/issues">
+        <img src="https://img.shields.io/github/issues/snaeemm/SLDF?style=flat-square">
     </a>
     <a href="https://github.com/snaeemm/SLDF/network/members">
         <img src="https://img.shields.io/github/forks/snaeemm/SLDF?style=flat-square">
@@ -24,7 +24,7 @@
 </div>
 
 This is the official repository for the paper 
-[Generation and Detection of Sign Language Deepfakes - A Linguistic and Visual Analysis](http://arxiv.org/abs/2311.15308).
+[Generation and Detection of Sign Language Deepfakes - A Linguistic and Visual Analysis](https://arxiv.org/abs/2404.01438).
 
 ## Abstract
 A question in the realm of deepfakes is slowly emerging pertaining to whether we can go beyond
@@ -65,10 +65,12 @@ The other parts of this project is under the CC BY-NC 4.0 license. See [LICENSE]
 If you find this work useful in your research, please cite it.
 
 ```bibtex
-@article{cai2023avdeepfake1m,
-  title = {AV-Deepfake1M: A Large-Scale LLM-Driven Audio-Visual Deepfake Dataset},
-  action = {Cai, Zhixi and Ghosh, Shreya and Adatia, Aman Pankaj and Hayat, Munawar and Dhall, Abhinav and Stefanov, Kalin},
-  journal = {arXiv preprint arXiv:2311.15308},
-  year = {2023},
+@misc{naeem2024generation,
+      title={Generation and Detection of Sign Language Deepfakes - A Linguistic and Visual Analysis}, 
+      author={Shahzeb Naeem and Muhammad Riyyan Khan and Usman Tariq and Abhinav Dhall and Carlos Ivan Colon and Hasan Al-Nashash},
+      year={2024},
+      eprint={2404.01438},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
