@@ -18,8 +18,8 @@
     <a href="https://github.com/snaeem/SLDF/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/license-CC%20BY--NC%204.0-97ca00?style=flat-square">
     </a>
-    <a href="https://arxiv.org/abs/2311.15308">
-        <img src="https://img.shields.io/badge/arXiv-2311.15308-b31b1b.svg?style=flat-square">
+    <a href="https://arxiv.org/abs/2404.01438">
+        <img src="https://img.shields.io/badge/arXiv-2404.01438-b31b1b.svg?style=flat-square">
     </a>
 </div>
 
